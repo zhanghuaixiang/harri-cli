@@ -1,27 +1,9 @@
 {
-    "printWidth": 100,
-      "overrides": [
-          {
-              "files": ".prettierrc",
-              "options": { "parser": "json" }
-          }
-      ],
+    "printWidth": 120,
     "tabWidth": 4,
-    "useTabs": false, 
-    "semi": true, 
-    "singleQuote": true, 
-    "proseWrap": "preserve", 
-    "arrowParens": "avoid", 
-    "bracketSpacing": true, 
-    "disableLanguages": ["vue"], 
-    "endOfLine": "auto", 
-    "eslintIntegration": false, 
-    "htmlWhitespaceSensitivity": "ignore",
-    "ignorePath": ".prettierignore", 
-    "jsxBracketSameLine": false, 
-    "jsxSingleQuote": false, 
-    "requireConfig": false, 
-    "stylelintIntegration": false, 
-    "trailingComma": "es5", 
-    "prettier.tslintIntegration": false 
-  }
+    "useTabs": false,
+    "singleQuote": false,
+    "semi": true,
+    "trailingComma": "none",
+    "bracketSpacing": true
+}
