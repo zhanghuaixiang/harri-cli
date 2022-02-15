@@ -1,0 +1,22 @@
+{
+  "name": "@harri/cli",
+  "version": "1.0.0",
+  "description": "张怀祥的脚手架",
+  "main": "bin/index.js",
+  "bin": {
+    "harri": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "6.1.0",
+    "download-git-repo": "3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
