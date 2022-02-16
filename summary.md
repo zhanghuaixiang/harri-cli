@@ -21,7 +21,9 @@
     
     2、对clone下来的项目安装依赖。执行npm install。
         使用nodejs中的child_process中的spawn执行命令。spawn("npm", ["install"], {cwd: "./创建的项目名称"})
+        
     3、安装完依赖进行启动项目。执行npm run serve。
         同样使用spawn来执行命令。spawn("npm", ["run", "serve"], {cwd: "./创建的项目名称"})
+        
     4、打开浏览器。
         使用open插件提供的open方法，将本地服务地址传进去。open("http://localhost:8080")
